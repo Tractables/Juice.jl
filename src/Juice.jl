@@ -1,5 +1,8 @@
 module Juice
 
-greet() = print("Hello World!")
+using Reexport
+
+@reexport using LogicCircuits
+@reexport using ProbabilisticCircuits
 
 end # module
