@@ -5,6 +5,8 @@
 
 
 # Juice.jl
-The Juice package for circuits:
+The Julia circuit empanada:
   * [LogicCircuits.jl](https://github.com/Juice-jl/LogicCircuits.jl)
   * [ProbabilisticCircuits.jl](https://github.com/Juice-jl/ProbabilisticCircuits.jl)
+
+For README and documentation, please see the sub-packages linked above.
