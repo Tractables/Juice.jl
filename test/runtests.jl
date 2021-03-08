@@ -1,5 +1,5 @@
-using Test
 using Pkg
+using Test
 using LogicCircuit
 using ProbabilisticCircuits
 
