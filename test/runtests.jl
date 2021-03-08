@@ -1,6 +1,6 @@
 using Pkg
 using Test
-using LogicCircuit
+using LogicCircuits
 using ProbabilisticCircuits
 
 
