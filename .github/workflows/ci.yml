@@ -24,14 +24,14 @@ jobs:
           version: 1.5
 
 
-      - name: Unit Tests Master Branch
+      - name: Unit Tests Last Version
         run: |
           julia --project -e 'using Pkg; Pkg.instantiate(); Pkg.build();'
           julia --project --check-bounds=yes --depwarn=yes -e 'import Pkg; Pkg.test("LogicCircuits")'
           julia --project --check-bounds=yes --depwarn=yes -e 'import Pkg; Pkg.test("ProbabilisticCircuits")'
           julia --project --check-bounds=yes --depwarn=yes -e 'import Pkg; Pkg.test(; coverage=true)'
 
-      - name: Unit Tests Last Version
+      - name: Unit Tests Master Branch 
         run: |
           julia --project -e 'using Pkg; Pkg.develop(PackageSpec(name="LogicCircuits")); Pkg.develop(PackageSpec(name="ProbabilisticCircuits")); Pkg.instantiate(); Pkg.build();'
           julia --project --check-bounds=yes --depwarn=yes -e 'import Pkg; Pkg.test("LogicCircuits")'
