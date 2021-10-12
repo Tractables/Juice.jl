@@ -1,15 +1,18 @@
 name = "Juice"
 uuid = "2f3a4f60-c16e-4e75-8ff0-658cff9aee65"
 authors = ["Guy Van den Broeck <guyvdb@cs.ucla.edu>"]
-version = "0.2.0"
+version = "0.3"
 
 [deps]
+DiscriminativeCircuits = "a7647aa2-9cec-401b-a794-defb9118933d"
 LogicCircuits = "a7847b3b-b7f1-4dd5-83c3-60e0aa0f8599"
 ProbabilisticCircuits = "2396afbe-23d7-11ea-1e05-f1aa98e17a44"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
-LogicCircuits = "0.2"
-ProbabilisticCircuits = "0.2"
-Reexport = "0.2, 1.0"
-julia = "1.6"
+LogicCircuits = "0.3"
+ProbabilisticCircuits = "0.3"
+DiscriminativeCircuits = "0.1"
+Reexport = "1.0"
+julia = "1.6, 1.7"
+
