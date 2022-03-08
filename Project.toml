@@ -10,8 +10,7 @@ ProbabilisticCircuits = "2396afbe-23d7-11ea-1e05-f1aa98e17a44"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
+DiscriminativeCircuits = "0.1, 0.2"
 LogicCircuits = "0.3"
 ProbabilisticCircuits = "0.3"
-DiscriminativeCircuits = "0.1"
 Reexport = "1.0"
-
